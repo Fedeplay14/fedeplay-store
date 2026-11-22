@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fede.Play</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #101010;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #f28c28;
+  padding: 18px 25px;
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  max-width: 850px;
+  margin: auto;
+  padding: 25px;
+}
+
+h1 {
+  color: #36d9e8;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #bbb;
+  margin-bottom: 25px;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background: #202020;
+  border: 1px solid #333;
+  border-radius: 7px;
+  padding: 17px;
+  margin-bottom: 12px;
+}
+
+.app-name {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.download {
+  background: #13b8c8;
+  color: #061619;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.download:focus {
+  outline: 3px solid white;
+  outline-offset: 3px;
+}
+
+@media(max-width: 480px) {
+  main { padding: 15px; }
+  .app { padding: 13px; }
+  .app-name { font-size: 14px; }
+  .download { padding: 10px 12px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>FEDE.PLAY ▶️</header>
+
+<main>
+  <h1>FEDE.PLAY</h1>
+  <p class="subtitle">
+    Catálogo oficial de aplicaciones
+  </p>
+
+  <div class="app">
+    <span class="app-name">PLAY TV (PREMIUM)</span>
+    <a class="download">DESCARGAR</a>
+  </div>
+
+  <div class="app">
+    <span class="app-name">PUNTO PLAY (CANALES Y PACK FÚTBOL)</span>
+    <a class="download">DESCARGAR</a>
+  </div>
+
+  <div class="app">
+    <span class="app-name">DESCARGADOR 2.0.4</span>
+    <a class="download">DESCARGAR</a>
+  </div>
+
+</main>
+
+</body>
+</html>
